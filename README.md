@@ -36,12 +36,12 @@ Run this in your project terminal to link Marrow to **Cursor**, **Windsurf**, **
 
 ### macOS / Linux / WSL
 ```bash
-curl -fsSL https://raw.githubusercontent.com/CodePandaaAI/deep-learn/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/CodePandaaAI/marrow/main/install.sh | bash
 ```
 
 ### Windows (PowerShell)
 ```powershell
-irm https://raw.githubusercontent.com/CodePandaaAI/deep-learn/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/CodePandaaAI/marrow/main/install.ps1 | iex
 ```
 
 ---

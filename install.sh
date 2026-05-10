@@ -16,7 +16,7 @@ if [ -f "skills/marrow/SKILL.md" ]; then
     echo "✅ Skill found locally and copied to .marrow/"
 else
     mkdir -p .marrow
-    curl -s https://raw.githubusercontent.com/CodePandaaAI/deep-learn/main/skills/marrow/SKILL.md -o .marrow/Marrow.md
+    curl -s https://raw.githubusercontent.com/CodePandaaAI/marrow/main/skills/marrow/SKILL.md -o .marrow/Marrow.md
     echo "✅ Skill downloaded from GitHub to .marrow/"
 fi
 

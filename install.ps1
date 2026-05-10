@@ -11,7 +11,7 @@ if (Test-Path "skills/marrow/SKILL.md") {
     Copy-Item "skills/marrow/SKILL.md" ".marrow/Marrow.md" -Force
     Write-Host "✅ Skill found locally and copied to .marrow/"
 } else {
-    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/CodePandaaAI/deep-learn/main/skills/marrow/SKILL.md" -OutFile ".marrow/Marrow.md"
+    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/CodePandaaAI/marrow/main/skills/marrow/SKILL.md" -OutFile ".marrow/Marrow.md"
     Write-Host "✅ Skill downloaded from GitHub to .marrow/"
 }
 
