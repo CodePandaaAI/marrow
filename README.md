@@ -1,57 +1,59 @@
-# 📚 DeepLearn
+<div align="center">
+  <img src="marrow_logo.png" width="150" alt="Marrow Logo">
+  <h1>Marrow 🦴</h1>
+  <p><b>AI talk surface. Marrow go deep.</b></p>
+  <i>"Stop skimming. Get to the Marrow."</i>
+</div>
 
-**Stop correcting AI. Start learning from it.**
-
-A prompt that makes any AI (ChatGPT, Gemini, Claude) actually teach you — deeply, clearly, from zero.
+A "Master Teacher" skill for any AI (ChatGPT, Gemini, Claude, Cursor, Antigravity). Kill shallow loops and force your AI to teach you properly.
 
 ---
 
 ## The Problem
 
-You ask AI to explain something. It gives a surface-level overview. You say "go deeper." It goes deeper but introduces 3 new terms it assumes you know. You ask about those. It explains them badly. You correct it again. And again.
-
-5 minutes of learning → 20 minutes of babysitting AI.
+Normal AI assumes too much. It throws jargon at you. It skips the "Why." You spend more time correcting the AI than actually learning.
 
 ## The Fix
 
-DeepLearn is a single prompt you paste into any AI chat. It makes the AI:
-
-- **Assume you know nothing** and explain from the ground up
-- **Pick out every important term** in your topic and explain each one
-- **Break big topics into chunks** so nothing gets rushed
-- **Never introduce a concept without explaining it**
-- **Skip the filler** — no "Great question!", no greetings, just teaching
-
-Works for anything: programming, business, science, medicine, law, or whatever you're studying.
+Marrow is a specialized "System Prompt" that makes the AI:
+- **Assume Zero Knowledge**: Every term is explained from the ground up.
+- **Identify High-Value Terms**: It automatically picks the "big meaning" words and drills into them.
+- **Iterative Learning**: It breaks big topics into chunks and asks "Ready for more?" so you never lose the thread.
+- **No Fluff**: No greetings, no filler. Just pure substance.
 
 ---
 
-## How to Use
+## Before vs. After
 
-### Option 1: Copy-paste (fastest)
-
-1. Open the [SKILL.md](skills/deeplearn/SKILL.md) file
-2. Click the **📋 Copy** button (top right of the file)
-3. Paste it at the start of any AI chat
-4. Ask your question after it
-
-### Option 2: Download the file
-
-1. Open the [SKILL.md](skills/deeplearn/SKILL.md) file
-2. Click the **⬇ Download raw file** button (top right)
-3. Attach the file to your AI chat and ask your question
+| 🗣️ Normal AI (Surface) | 🦴 Marrow (Depth) |
+| :--- | :--- |
+| "To use a `Scaffold` in Jetpack Compose, provide a topBar. It's a container." | "The `Scaffold` is the **blueprint** of your UI. It manages the layout slots for common Material components. **Why?** It prevents components from overlapping and handles inner padding automatically." |
 
 ---
 
-## Works With
+## Quick Install
 
-- ChatGPT (paste in chat or custom instructions)
-- Google Gemini (paste in chat)
-- Claude (paste in chat or as a project file)
-- Any AI chatbot that accepts text input
+Run this in your project terminal to link Marrow to **Cursor**, **Windsurf**, **Cline**, or **Antigravity**:
+
+### macOS / Linux / WSL
+```bash
+curl -fsSL https://raw.githubusercontent.com/CodePandaaAI/deep-learn/main/install.sh | bash
+```
+
+### Windows (PowerShell)
+```powershell
+irm https://raw.githubusercontent.com/CodePandaaAI/deep-learn/main/install.ps1 | iex
+```
+
+---
+
+## Manual Use
+
+1. Open [skills/marrow/SKILL.md](skills/marrow/SKILL.md).
+2. Copy the content.
+3. Paste it at the start of any chat with your question.
 
 ---
 
 ## License
-
-MIT — use it, share it, modify it.
+MIT — use it, share it, master anything.
