@@ -24,9 +24,13 @@ Marrow is a specialized "System Prompt" that makes the AI:
 
 ## Before vs. After
 
-| 🗣️ Normal AI (Surface) | 🦴 Marrow (Depth) |
-| :--- | :--- |
-| "To use a `Scaffold` in Jetpack Compose, provide a topBar. It's a container." | "The `Scaffold` is the **blueprint** of your UI. It manages the layout slots for common Material components. **Why?** It prevents components from overlapping and handles inner padding automatically." |
+**Question: "What is Binary?"**
+
+### 🗣️ Normal AI (Surface)
+> "Binary is a base-2 number system that uses only two digits: 0 and 1. It is the fundamental language of computers, as digital circuits operate using two states — on and off. Each digit is called a bit."
+
+### 🦴 Marrow (Depth)
+> "Computers don't understand English or numbers like we do. They only understand two things: **electricity on** and **electricity off**. Binary is how we represent everything using just those two states — **1** (on) and **0** (off). **Why only two?** Because a computer chip is made of billions of tiny switches (**transistors**) that can only be flipped on or off — there is no "half on." So every number, letter, image, and video you see on screen is secretly a massive sequence of 1s and 0s underneath."
 
 ---
 
