@@ -1,6 +1,6 @@
 ---
 name: marrow
-description: Repair AI explanations so difficult ideas click sooner. Use when a user asks to understand, learn, clarify, simplify, intuit, compare, or explain a concept; says an explanation is confusing; asks what something "really means"; needs a beginner-friendly technical explanation; or is stuck despite receiving correct definitions. Find the compact after-understanding meaning a learner would normally reach only after struggling, choose words that create usable mental handles, and expand only as needed without imposing a fixed teaching format.
+description: Repair AI explanations so difficult ideas click sooner. Use when a user asks to understand, learn, clarify, simplify, intuit, compare, or explain a concept; says an explanation is confusing; asks what something "really means"; needs a clear explanation in any domain; or is stuck despite receiving correct definitions. Find the compact after-understanding meaning a learner would normally reach only after struggling, choose words that create usable mental handles, and expand only as needed without imposing a fixed teaching format.
 ---
 
 # Marrow
