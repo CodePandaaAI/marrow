@@ -5,204 +5,117 @@
 
   <p><strong>Explanations that make sense.</strong></p>
 
-  <p>Marrow teaches AI to explain difficult ideas clearly.</p>
+  <p>Marrow helps AI reach the meaning sooner.</p>
 </div>
 
 ---
 
-## The answer can be correct and still not help
+## Why Marrow exists
 
-You ask an AI to explain something.
+You ask AI to explain something.
 
-It gives you a definition. The definition sounds correct, but the idea is still
-not clear.
+The answer is correct, but it does not click.
 
-So you try again:
+So you ask again:
 
 - "Explain it simply."
 - "Use easier words."
 - "Give me an example."
-- "Explain it like I am a beginner."
-- "Can you use an analogy?"
+- "Try an analogy."
 - "I still do not understand."
 
-Each answer gives you more words. Sometimes it gives you the same explanation
-with different words. You may learn related facts without finding the one
-meaning you were looking for.
+After enough trial and error, one sentence finally makes the idea clear.
 
-After enough trial and error, one sentence finally makes the idea click.
+And you think:
 
-Then you think:
-
-> Why did the explanation not begin with that?
+> Why did the AI not say that first?
 
 Marrow is built for that problem.
 
-## A complete-looking definition can still hide the idea
-
-An explanation can sound clear and detailed while asking the learner to
-understand several other concepts first.
+## One example
 
 Ask:
 
 > What is a tensor in AI?
 
-A common answer may say:
+You may get an answer like this:
 
-> A tensor is a fundamental mathematical building block in artificial
-> intelligence that acts as a generalized container for data. It is an
-> N-dimensional array of numbers. It allows AI models to process complex data
-> such as images, text, and video.
+> A tensor is a fundamental mathematical building block that acts as a
+> generalized container for data. It is an N-dimensional array of numbers.
 
-The answer contains useful facts. But the main idea is carried by phrases such
-as "generalized container" and "N-dimensional array." If those phrases are not
-already clear, the definition still does not give you something definite to
-think with.
+The answer contains useful facts. But if "generalized container" and
+"N-dimensional array" are not already clear, the definition does not give you
+much to think with.
 
-A more useful beginning is:
+Marrow tries to find the meaning that should come first:
 
 > In machine learning, a tensor is data with a shape. The data is usually
-> numbers, and the shape tells you how those numbers are arranged.
+> numbers. The shape tells you how those numbers are arranged.
 
-For example:
-
-- `7` is one number.
-- `[7, 12, 4]` is three numbers in a line.
-- A table of numbers has rows and columns.
-- A group of color images can be arranged by image, height, width, and color.
-
-These can all be stored as tensors. What changes is the shape: the description
-of how many numbers there are along each direction.
+A number, a list of numbers, a table, and a group of images can all be stored as
+tensors. Their shapes describe how the numbers are arranged.
 
 So when an AI model expects a tensor with a certain shape, it expects numbers
-arranged in that particular form.
+arranged in that form.
 
-"Data with a shape" is a useful first meaning for machine learning. It is not
-the complete mathematical definition of a tensor. The fuller definition can
-come later, after the learner has a clear place to attach it.
+"Data with a shape" is a useful first meaning in machine learning. It is not the
+complete mathematical definition. The exact definition can come later, after
+the first idea is clear.
 
-## More detail is not always the answer
+## What does "simple" mean?
 
-When an explanation fails, AI often adds more:
+There is no explanation that feels simple to everyone.
 
-- more definitions
-- more background
-- more examples
-- more technical terms
-- more sections
+What feels clear depends on what a person already knows and which part is
+confusing them.
 
-More can help, but it can also hide the answer under a lesson you did not ask
-for.
+For Marrow, a simple explanation is one that creates the needed understanding
+with the least unnecessary difficulty.
 
-If you ask what inflation means, you may get:
+That does not always mean:
 
-> Inflation is a sustained increase in the general price level.
-
-That is a correct economic definition. But it may not give you a clear picture.
-
-A useful first explanation is:
-
-> Inflation is when prices generally go up over time. Your money then buys less
-> than it did before.
-
-The formal definition can come later. First, you have something clear to think
-with.
-
-## One explanation does not fit every idea
-
-Some ideas become clear through a definition. Others need a contrast, a cause
-and effect, a concrete example, or the correction of one wrong assumption.
-
-Marrow does not force every answer into the same shape.
-
-### Sometimes the missing part is a contrast
-
-> A price increase means one thing became more expensive. Inflation means prices
-> are generally rising across the economy.
-
-The contrast prevents one expensive product from being mistaken for inflation.
-
-### Sometimes the missing part is what happens
-
-A common explanation of confirmation bias is:
-
-> Confirmation bias is the tendency to favor information that confirms existing
-> beliefs.
-
-A clearer first explanation may be:
-
-> When you already believe something, evidence that supports it is easier to
-> notice, trust, and remember than evidence that challenges it.
-
-The second version shows the pattern instead of only naming it.
-
-### Sometimes the missing part is the real action
-
-A technical explanation may say:
-
-> Dependency injection is a design pattern that implements inversion of control.
-
-But that gives a learner two more labels to understand.
-
-A more useful beginning is:
-
-> A part of a program often creates the helpers it needs. With dependency
-> injection, another part creates those helpers and gives them to it.
-
-Now the learner can see what changes in the code. The formal terms have
-something real to attach to.
-
-## What Marrow changes
-
-Before the AI answers, Marrow guides it to:
-
-1. Notice what part of the idea is actually missing.
-2. Consider more than one way to explain it.
-3. Choose the clearest core meaning.
-4. Check whether the important words create understanding or only sound simple.
-5. Add only the support needed for the idea to hold together.
-6. Keep the explanation accurate without burying it under warnings.
-7. Try a different route when the first explanation does not click.
-
-This work stays behind the scenes. The reader should receive a natural
-explanation, not a report about how the explanation was built.
-
-## What Marrow does not do
-
-Marrow does not assume that beginners need everything explained from zero.
-
-It does not require:
-
-- a long answer
+- fewer words
+- easier vocabulary
+- less detail
 - an analogy
-- an example
-- numbered steps
-- the history of the idea
-- every related concept
-- a fixed teaching style
+- a beginner lesson
 
-Sometimes one sentence is enough. Sometimes an example carries the idea.
-Sometimes the learner needs exact detail instead of a simpler answer.
+Sometimes a short answer is enough. Sometimes an example makes the difference.
+Sometimes an exact explanation is clearer than a vague one.
 
-The goal is not to explain more.
+The goal is not to make every answer look simple.
 
-The goal is to reach the meaning sooner.
+The goal is to make the idea easier to understand.
 
-## When Marrow can help
+## How Marrow helps
 
-Use Marrow when:
+Before answering, Marrow guides the AI to:
 
-- a definition is correct but still feels empty
-- an AI keeps replacing one difficult term with another
-- you understand the words but not how they connect
-- explanations keep moving into related topics
-- you need a basic picture before exact details
-- you have asked several times and the idea still has not clicked
-- you want an explanation that respects what you already know
+1. Find the part the learner is missing.
+2. Consider different ways to explain it.
+3. Put the clearest meaning first.
+4. Check whether the important words actually help.
+5. Add only the background the learner needs.
+6. Keep the explanation accurate.
+7. Try a different approach if the first one does not click.
 
-Marrow can help with technology, science, economics, language, history,
-philosophy, everyday reasoning, and other subjects. The aim stays the same:
-find the missing meaning and explain that first.
+This work stays behind the scenes. The learner receives a natural explanation,
+not a report about how it was made.
+
+## What Marrow avoids
+
+Marrow does not force every answer to:
+
+- start from zero
+- become long
+- include an analogy
+- include an example
+- use numbered steps
+- explain every related topic
+
+Different ideas and different learners need different explanations.
+
+Marrow tries to find the one that fits.
 
 ## Add Marrow
 
