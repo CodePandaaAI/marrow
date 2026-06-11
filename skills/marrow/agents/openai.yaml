@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marrow"
+  short_description: "Make difficult ideas easier to understand"
+  default_prompt: "Use $marrow to explain this idea clearly."

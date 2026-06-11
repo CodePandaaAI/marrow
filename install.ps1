@@ -1,41 +1,39 @@
-# Marrow 🦴 Installer
-# "AI talk surface. Marrow go deep."
+# Marrow installer
+# Find the explanation that clicks.
+
+$ErrorActionPreference = "Stop"
 
 $REPO = "CodePandaaAI/marrow"
 
-Write-Host "🦴 Marrow Installer" -ForegroundColor Cyan
-Write-Host "-------------------"
+Write-Host "Marrow Installer" -ForegroundColor Cyan
+Write-Host "----------------"
 
-# Primary: Use npx skills (the standard way)
+# Primary: use npx skills, the standard installation path.
 if (Get-Command npx -ErrorAction SilentlyContinue) {
-    Write-Host "📦 Installing via npx skills..."
+    Write-Host "Installing via npx skills..."
     npx -y skills add $REPO
-    Write-Host "✅ Marrow installed successfully!"
+    if ($LASTEXITCODE -ne 0) {
+        throw "Marrow installation failed."
+    }
+    Write-Host "Marrow installed successfully!"
 } else {
-    # Fallback: Manual download for users without Node.js
-    Write-Host "⚠️  npx not found. Falling back to manual install..."
+    # Fallback: install the skill into common project-level skill directories.
+    Write-Host "npx not found. Falling back to manual install..."
 
     $RAW = "https://raw.githubusercontent.com/$REPO/main/skills/marrow/SKILL.md"
 
-    # Cursor
-    if (Test-Path "$env:USERPROFILE\.cursor") {
-        New-Item -ItemType Directory -Force -Path ".cursor/rules" | Out-Null
-        Invoke-WebRequest -Uri $RAW -OutFile ".cursor/rules/marrow.md"
-        Write-Host "✅ Added to Cursor rules."
-    }
+    # Universal skill path used by Codex, Cursor, Cline, Gemini CLI, and others.
+    New-Item -ItemType Directory -Force -Path ".agents/skills/marrow" | Out-Null
+    Invoke-WebRequest -Uri $RAW -OutFile ".agents/skills/marrow/SKILL.md"
+    Write-Host "Added to .agents/skills/marrow."
 
     # Windsurf
-    if (Test-Path "$env:USERPROFILE\.windsurf") {
-        New-Item -ItemType Directory -Force -Path ".windsurf/rules" | Out-Null
-        Invoke-WebRequest -Uri $RAW -OutFile ".windsurf/rules/marrow.md"
-        Write-Host "✅ Added to Windsurf rules."
+    if ((Test-Path "$env:USERPROFILE\.windsurf") -or
+        (Test-Path "$env:USERPROFILE\.codeium\windsurf")) {
+        New-Item -ItemType Directory -Force -Path ".windsurf/skills/marrow" | Out-Null
+        Invoke-WebRequest -Uri $RAW -OutFile ".windsurf/skills/marrow/SKILL.md"
+        Write-Host "Added to .windsurf/skills/marrow."
     }
 
-    # Cline
-    if (Test-Path ".clinerules") {
-        Invoke-WebRequest -Uri $RAW -OutFile ".clinerules/marrow.md"
-        Write-Host "✅ Added to Cline rules."
-    }
-
-    Write-Host "✅ Done. For best results, install Node.js and run: npx skills add $REPO"
+    Write-Host "Done. For best results, install Node.js and run: npx skills add $REPO"
 }

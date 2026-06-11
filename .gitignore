@@ -1,0 +1,6 @@
+# Local skill development and personal agent configuration
+.agents/
+marrow-skill/
+marrow-compact-skill/
+MARROW_PROJECT_CONTEXT.md
+skills-lock.json
